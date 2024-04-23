@@ -1,0 +1,9 @@
+Module
+  name: game_movingbutton
+  description: click a moving button
+  author: Dahl, Christian
+  website: https://christiandahl.dev
+  sandboxed: true
+  scripts: [ movingbutton.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

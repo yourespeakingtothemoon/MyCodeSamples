@@ -1,0 +1,11 @@
+MainWindow
+  id: mb_Window
+  !text: tr("Moving Button!")
+  size: 500 500
+  @onEscape: toggle()
+
+  Button
+    id:mb_MovingButton
+    !text: tr("Jump!")
+    width: 64
+    @onClick: newPostion()
